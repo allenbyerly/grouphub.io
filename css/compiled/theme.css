@@ -6107,14 +6107,19 @@ html.bg {
     #coming-soon.dark .social .ion span {
       color: #AEDCFF; }
   #coming-soon #cover-image {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    height: 120%;
+    height: 100%;
     width: 100%;
     padding-top: 0px;
+
+  
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 100%;
     -webkit-animation-delay: 0.15s;
     -moz-animation-delay: 0.15s;
     -o-animation-delay: 0.15s;
