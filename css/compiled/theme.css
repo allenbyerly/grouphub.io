@@ -6112,7 +6112,7 @@ html.bg {
     left: 0;
     height: 120%;
     width: 100%;
-    padding-top: 105px;
+    padding-top: 0px;
     background-position: center center;
     background-size: cover;
     -webkit-animation-delay: 0.15s;
@@ -6123,7 +6123,7 @@ html.bg {
     background-image: url("../../images/bg4.png"); }
     @media (max-width: 991px) {
       #coming-soon  #cover-image {
-        padding-top: 65px; } }
+        padding-top: 00px; } }
     #coming-soon  #cover-image:after {
       content: '';
       position: absolute;
@@ -6135,7 +6135,7 @@ html.bg {
       background: rgba(24, 22, 19, 0.4); }
     #coming-soon #cover-image:before {
       position: absolute;
-      top: 10%;
+      top: 0%;
       bottom: 0;
       left: 0;
       right: 0;
